@@ -13,6 +13,7 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 """
 
 import rosegraphics as rg
+import math
 
 
 def main():
@@ -62,6 +63,7 @@ def sum_abs_of_all_without_range(sequence):
     # EXAMPLE 2.  Iterates through a sequence of numbers, summing them.
     #   Same as Example 1 above, but uses the "no range" form.
     # ------------------------------------------------------------------
+
     total = 0
     for number in sequence:
         total = total + abs(number)
